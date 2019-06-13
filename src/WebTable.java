@@ -16,8 +16,9 @@ public static void main(String[] args) {
 	List<WebElement> tdata = row.findElements(By.tagName("td"));
 	for (int i = 0; i < tdata.size(); i++) {
 		WebElement data = tdata.get(i);
-		String name = data.getText();
-		System.out.println(name);
+		String n = data.getText();
+		System.out.println(n);
+		
 	}
 	
 	}
